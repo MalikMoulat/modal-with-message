@@ -1,7 +1,11 @@
 // @ts-nocheck
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./components/App";
+import ButtonOpenModal from "./button/ButtonOpenModal";
 
 const root = createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+    <React.Fragment>
+        <ButtonOpenModal />
+    </React.Fragment>
+);

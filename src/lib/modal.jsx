@@ -1,21 +1,28 @@
+import React from "react";
+import PropTypes from "prop-types";
 
-
-import "./modalmessage.css"
+import "./modal.css";
 
 function ModalMessage({ setVar, message }){
     return(
-        <div className="modal-wrap">
-            <div className="modal-msg">
-                <button className="modal-btn" onClick={() => setVar(false)}>
-                    X
-                </button>
-                <p>
-                    {message}
-                </p>
+        <React.Fragment>
+            <div className="modal-wrap">
+                <div className="modal-msg">
+                    <button className="modal-btn" onClick={() => setVar(false)}>
+                        X
+                    </button>
+                    <p>
+                        {message}
+                    </p>
+                </div>
             </div>
-        </div>
-    )
+        </React.Fragment>
+    );
 }
 
+ModalMessage.propTypes = {
+    setVar: PropTypes.func.isRequired,
+    message: PropTypes.string.isRequired
+};
 
-export default ModalMessage
+export default ModalMessage;
