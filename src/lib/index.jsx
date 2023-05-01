@@ -1,3 +1,3 @@
 import ModalMessage from "./modal";
 
-export { ModalMessage };
+export default { ModalMessage };
