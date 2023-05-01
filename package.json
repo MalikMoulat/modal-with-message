@@ -1,7 +1,7 @@
 {
   "name": "modal-with-message",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Malik Moulat",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -11,11 +11,29 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "main":"dist/index.js",
+  "files":["dist", "README.md"], 
+  "module":"dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MalikMoulat/modal-with-message"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean": "rm -rf dist coverage",
+    "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "eslintConfig": {
     "extends": [
