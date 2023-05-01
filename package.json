@@ -1,7 +1,7 @@
 {
   "name": "modal-with-message",
   "author": "Malik Moulat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Composants custom React de type Input",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -43,10 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "dependencies": {
-    "date-fns": "^2.29.3",
-    "react-date-range": "^1.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
