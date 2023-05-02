@@ -7,6 +7,6 @@ import ModalMessage from "./lib/modal";
 const root = createRoot(document.getElementById("root"));
 root.render(
     <React.Fragment>
-        <ModalMessage />
+        <ModalMessage message={"Your message here"}/>
     </React.Fragment>
 );
