@@ -1,7 +1,7 @@
 {
   "name": "modal-with-message",
   "author": "Malik Moulat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Composants custom React de type Input",
   "main": "dist/index.js",
   "module": "dist/index.js",
