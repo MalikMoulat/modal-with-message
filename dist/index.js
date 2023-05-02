@@ -6,7 +6,5 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _modal = _interopRequireDefault(require("./modal"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = {
-  ModalMessage: _modal.default
-};
+var _default = _modal.default;
 exports.default = _default;

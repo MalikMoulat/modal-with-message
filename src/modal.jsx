@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./modal.css";
 
-function ModalMessage({ message }){
+function ModalWithMessage({ message }){
     return(
         <React.Fragment>
             <div className="modal-wrap">
@@ -20,9 +20,9 @@ function ModalMessage({ message }){
     );
 }
 
-ModalMessage.propTypes = {
+ModalWithMessage.propTypes = {
     // setVar: PropTypes.func.isRequired,
     message: PropTypes.string.isRequired
 };
 
-export default ModalMessage;
+export default ModalWithMessage;
