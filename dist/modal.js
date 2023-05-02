@@ -9,21 +9,17 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 require("./modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function ModalMessage(_ref) {
-  var setVar = _ref.setVar,
-    message = _ref.message;
+  var message = _ref.message;
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-wrap"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-msg"
   }, /*#__PURE__*/_react.default.createElement("button", {
-    className: "modal-btn",
-    onClick: function onClick() {
-      return setVar(false);
-    }
+    className: "modal-btn"
   }, "X"), /*#__PURE__*/_react.default.createElement("p", null, message))));
 }
 ModalMessage.propTypes = {
-  setVar: _propTypes.default.func.isRequired,
+  // setVar: PropTypes.func.isRequired,
   message: _propTypes.default.string.isRequired
 };
 var _default = ModalMessage;
