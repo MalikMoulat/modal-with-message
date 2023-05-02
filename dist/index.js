@@ -1,2 +1,12 @@
-import ModalMessage from "./modal";
-export { ModalMessage };
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _modal = _interopRequireDefault(require("./modal"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _default = {
+  ModalMessage: _modal.default
+};
+exports.default = _default;
