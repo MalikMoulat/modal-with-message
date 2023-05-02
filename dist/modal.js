@@ -17,7 +17,9 @@ function ModalWithMessage(_ref) {
     className: "modal-msg"
   }, /*#__PURE__*/_react.default.createElement("button", {
     className: "modal-btn",
-    onClick: setVar(false)
+    onClick: function onClick() {
+      return setVar(false);
+    }
   }, "X"), /*#__PURE__*/_react.default.createElement("p", null, message))));
 }
 ModalWithMessage.propTypes = {

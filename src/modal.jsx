@@ -8,7 +8,7 @@ function ModalWithMessage({ setVar, message }){
         <React.Fragment>
             <div className="modal-wrap">
                 <div className="modal-msg">
-                    <button className="modal-btn" onClick={setVar(false)}>
+                    <button className="modal-btn" onClick={() => setVar(false)}>
                         X
                     </button>
                     <p>
